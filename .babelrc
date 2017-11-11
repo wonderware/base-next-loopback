@@ -1,1 +1,0 @@
-{"presets":["next/babel"],"plugins":[["module-alias",[{"src":"/Users/Patrick/Projects/sun-structures/src/components","expose":"components"},{"src":"/Users/Patrick/Projects/sun-structures/src/server","expose":"server"},{"src":"/Users/Patrick/Projects/sun-structures/src/utils","expose":"utils"}]]]}
