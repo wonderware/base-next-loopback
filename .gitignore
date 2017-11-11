@@ -18,6 +18,7 @@ node_modules
 .DS_Store
 .project
 .strong-pm
+.idea
 coverage
 node_modules
 npm-debug.log
