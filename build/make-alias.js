@@ -1,7 +1,7 @@
 const path = require("path");
 const glob = require("glob");
 
-const files = glob.sync("./../src/*", {});
+const files = glob.sync("./!(node_modules|pages|build|.next|common|*.json|.babelrc|.editorconfig|.eslintrc|.gitignore|yarn.lock)", {});
 
 let aliases = [];
 

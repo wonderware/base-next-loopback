@@ -1,8 +1,8 @@
-import log from "logatim";
+const log = require("logatim");
 
 log.setLevel("info");
 
-export default {
+module.exports = {
 	trace: function(...args){
 		return log.trace(...args);
 	},
@@ -21,4 +21,4 @@ export default {
 	setLevel: function(...args){
 		return log.setLevel(...args);
 	}
-}
+};

@@ -1,7 +1,7 @@
 const fs = require("fs");
 const alias = require("./make-alias");
 
-fs.writeFileSync("./../eslintrc", JSON.stringify({
+fs.writeFileSync("./.eslintrc", JSON.stringify({
 		"globals": {
 			"bundle": false
 		},
@@ -185,6 +185,7 @@ fs.writeFileSync("./../eslintrc", JSON.stringify({
 			"import/extensions": ["warn"],
 			"import/no-unresolved": ["warn"],
 			"import/prefer-default-export": ["off"],
+			"import/newline-after-import": ["warn"],
 			"no-unused-expressions": 0,
 			"chai-friendly/no-unused-expressions": 2
 		},

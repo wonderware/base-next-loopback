@@ -1,6 +1,7 @@
 const express = require("express");
 const next = require("next");
 const api = require("./api");
+const log = require("./../utils/logger");
 
 const port = parseInt(process.env.PORT, 10) || 3000;
 const dev = process.env.NODE_ENV !== "production";
@@ -20,5 +21,9 @@ app.prepare().then(() => {
 		if (err) {
 			throw err;
 		}
+
+		log.info(`> Ready on http://localhost:${port}`)
 	});
+
+	require("./loopback");
 });
