@@ -6,7 +6,7 @@
     "dev": "node server/server.js",
     "startup": "npm-run-all build start",
     "dist": "next build",
-    "start": "NODE_ENV=production node src/server/server.js",
+    "start": "NODE_ENV=production node server/server.js",
     "build": "next build",
     "lint": "eslint src pages",
     "makeeslintrc": "node ./build/make-eslintrc.js",
