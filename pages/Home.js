@@ -1,9 +1,15 @@
 import React from "react";
-import log from "utils/logger";
 
 export default function Home() {
 
-	log.info("test");
-
-	return <div>Hello there!</div>;
+	return <div className="jumbotron jumbotron-fluid">
+			<div className="container">
+				<h1 className="display-3">
+					Hello there world.
+				</h1>
+				<p className="lead">
+					It sure is nice to see you there.
+				</p>
+			</div>
+		</div>
 }
